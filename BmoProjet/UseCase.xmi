@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:default="http:///schemas/default/_DPdB4OecEe-7HN6ylW4l9g/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/default/_DPdB4OecEe-7HN6ylW4l9g/0 default.profile.xmi#_DQpUt-ecEe-7HN6ylW4l9g">
+  <uml:Model xmi:id="_DPKG8OecEe-7HN6ylW4l9g" name="UseCase">
+    <eAnnotations xmi:id="_DPKG8eecEe-7HN6ylW4l9g" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_DPKG8uecEe-7HN6ylW4l9g" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_DPKG8-ecEe-7HN6ylW4l9g" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_DPKG9OecEe-7HN6ylW4l9g" name="Gestionnaire"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_DPKG9eecEe-7HN6ylW4l9g" memberEnd="_DPKG9uecEe-7HN6ylW4l9g _DPKG-OecEe-7HN6ylW4l9g" navigableOwnedEnd="_DPKG9uecEe-7HN6ylW4l9g">
+      <ownedEnd xmi:id="_DPKG9uecEe-7HN6ylW4l9g" visibility="public" type="_DPKHH-ecEe-7HN6ylW4l9g" isUnique="false" association="_DPKG9eecEe-7HN6ylW4l9g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DPKG9-ecEe-7HN6ylW4l9g"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_DPKG-OecEe-7HN6ylW4l9g" visibility="public" type="_DPKG9OecEe-7HN6ylW4l9g" isUnique="false" association="_DPKG9eecEe-7HN6ylW4l9g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DPKG-eecEe-7HN6ylW4l9g"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_DPKG-uecEe-7HN6ylW4l9g" memberEnd="_DPKG--ecEe-7HN6ylW4l9g _DPKG_eecEe-7HN6ylW4l9g" navigableOwnedEnd="_DPKG--ecEe-7HN6ylW4l9g">
+      <ownedEnd xmi:id="_DPKG--ecEe-7HN6ylW4l9g" visibility="public" type="_DPKHGOecEe-7HN6ylW4l9g" isUnique="false" association="_DPKG-uecEe-7HN6ylW4l9g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DPKG_OecEe-7HN6ylW4l9g"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_DPKG_eecEe-7HN6ylW4l9g" visibility="public" type="_DPKG9OecEe-7HN6ylW4l9g" isUnique="false" association="_DPKG-uecEe-7HN6ylW4l9g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DPKG_uecEe-7HN6ylW4l9g"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_DPKG_-ecEe-7HN6ylW4l9g" name="Systeme Bancaire"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_DPKHAOecEe-7HN6ylW4l9g" memberEnd="_DPKHAeecEe-7HN6ylW4l9g _DPKHA-ecEe-7HN6ylW4l9g" navigableOwnedEnd="_DPKHAeecEe-7HN6ylW4l9g">
+      <ownedEnd xmi:id="_DPKHAeecEe-7HN6ylW4l9g" visibility="public" type="_DPKHLeecEe-7HN6ylW4l9g" isUnique="false" association="_DPKHAOecEe-7HN6ylW4l9g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DPKHAuecEe-7HN6ylW4l9g"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_DPKHA-ecEe-7HN6ylW4l9g" visibility="public" type="_DPKG_-ecEe-7HN6ylW4l9g" isUnique="false" association="_DPKHAOecEe-7HN6ylW4l9g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DPKHBOecEe-7HN6ylW4l9g"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_DPKHBeecEe-7HN6ylW4l9g" name="Client"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_DPKHBuecEe-7HN6ylW4l9g" memberEnd="_DPKHB-ecEe-7HN6ylW4l9g _DPKHCeecEe-7HN6ylW4l9g" navigableOwnedEnd="_DPKHB-ecEe-7HN6ylW4l9g">
+      <ownedEnd xmi:id="_DPKHB-ecEe-7HN6ylW4l9g" visibility="public" type="_DPKHEOecEe-7HN6ylW4l9g" isUnique="false" association="_DPKHBuecEe-7HN6ylW4l9g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DPKHCOecEe-7HN6ylW4l9g"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_DPKHCeecEe-7HN6ylW4l9g" visibility="public" type="_DPKHBeecEe-7HN6ylW4l9g" isUnique="false" association="_DPKHBuecEe-7HN6ylW4l9g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DPKHCuecEe-7HN6ylW4l9g"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_DPKHC-ecEe-7HN6ylW4l9g" memberEnd="_DPKHDOecEe-7HN6ylW4l9g _DPKHDuecEe-7HN6ylW4l9g" navigableOwnedEnd="_DPKHDOecEe-7HN6ylW4l9g">
+      <ownedEnd xmi:id="_DPKHDOecEe-7HN6ylW4l9g" visibility="public" type="_DPKHJuecEe-7HN6ylW4l9g" isUnique="false" association="_DPKHC-ecEe-7HN6ylW4l9g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DPKHDeecEe-7HN6ylW4l9g"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_DPKHDuecEe-7HN6ylW4l9g" visibility="public" type="_DPKHBeecEe-7HN6ylW4l9g" isUnique="false" association="_DPKHC-ecEe-7HN6ylW4l9g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DPKHD-ecEe-7HN6ylW4l9g"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DPKHEOecEe-7HN6ylW4l9g" name="Reserver Residence">
+      <ownedComment xmi:id="_DPKHEeecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHEuecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHE-ecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHFOecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHFeecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHFuecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:id="_DPKHF-ecEe-7HN6ylW4l9g" name="UseCaseDependency" addition="_DPKHLeecEe-7HN6ylW4l9g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DPKHGOecEe-7HN6ylW4l9g" name="Gerer Residence (Tarifs)">
+      <ownedComment xmi:id="_DPKHGeecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHGuecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHG-ecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHHOecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHHeecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHHuecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DPKHH-ecEe-7HN6ylW4l9g" name="Gerer Disponibilites">
+      <ownedComment xmi:id="_DPKHIOecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHIeecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHIuecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHI-ecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHJOecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHJeecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DPKHJuecEe-7HN6ylW4l9g" name="Donner Avis">
+      <ownedComment xmi:id="_DPKHJ-ecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHKOecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHKeecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHKuecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHK-ecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHLOecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DPKHLeecEe-7HN6ylW4l9g" name="Payer Loyer">
+      <ownedComment xmi:id="_DPKHLuecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHL-ecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHMOecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHMeecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHMuecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_DPKHM-ecEe-7HN6ylW4l9g">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <profileApplication xmi:id="_DRiskOecEe-7HN6ylW4l9g">
+      <eAnnotations xmi:id="_DRiskeecEe-7HN6ylW4l9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="default.profile.xmi#_DQpUt-ecEe-7HN6ylW4l9g"/>
+      </eAnnotations>
+      <appliedProfile href="default.profile.xmi#_DQpUsOecEe-7HN6ylW4l9g"/>
+    </profileApplication>
+  </uml:Model>
+  <default:primary xmi:id="_DRr2gOecEe-7HN6ylW4l9g" base_Actor="_DPKG9OecEe-7HN6ylW4l9g"/>
+  <default:secondary xmi:id="_DRr2geecEe-7HN6ylW4l9g" base_Actor="_DPKG_-ecEe-7HN6ylW4l9g"/>
+  <default:primary xmi:id="_DRr2guecEe-7HN6ylW4l9g" base_Actor="_DPKHBeecEe-7HN6ylW4l9g"/>
+</xmi:XMI>
