@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_RoBZMPtAEe-wFvvraPuiJw" name="Objets">
+  <eAnnotations xmi:id="_RoBZMftAEe-wFvvraPuiJw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_RoBZMvtAEe-wFvvraPuiJw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_RoBZM_tAEe-wFvvraPuiJw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZNPtAEe-wFvvraPuiJw" name="marie">
+    <slot xmi:id="_RoBZNftAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZNvtAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZN_tAEe-wFvvraPuiJw" name="reserver">
+    <slot xmi:id="_RoBZOPtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZOftAEe-wFvvraPuiJw" name="reserv001" instance="_RoBZT_tAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZOvtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZO_tAEe-wFvvraPuiJw" instance="_RoBZNPtAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZPPtAEe-wFvvraPuiJw" name="residence1">
+    <slot xmi:id="_RoBZPftAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZPvtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZP_tAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZQPtAEe-wFvvraPuiJw" name="piece1">
+    <slot xmi:id="_RoBZQftAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZQvtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZQ_tAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZRPtAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZRftAEe-wFvvraPuiJw" name="appartenir">
+    <slot xmi:id="_RoBZRvtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZR_tAEe-wFvvraPuiJw" name="residence1" instance="_RoBZPPtAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZSPtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZSftAEe-wFvvraPuiJw" instance="_RoBZQPtAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZSvtAEe-wFvvraPuiJw">
+    <slot xmi:id="_RoBZS_tAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZTPtAEe-wFvvraPuiJw" instance="_RoBZT_tAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZTftAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZTvtAEe-wFvvraPuiJw" name="piece1" instance="_RoBZQPtAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZT_tAEe-wFvvraPuiJw" name="reserv001">
+    <slot xmi:id="_RoBZUPtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZUftAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZUvtAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZU_tAEe-wFvvraPuiJw" name="payer">
+    <slot xmi:id="_RoBZVPtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZVftAEe-wFvvraPuiJw" name="paiement056" instance="_RoBZYftAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZVvtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZV_tAEe-wFvvraPuiJw" instance="_RoBZT_tAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZWPtAEe-wFvvraPuiJw" name="payer">
+    <slot xmi:id="_RoBZWftAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZWvtAEe-wFvvraPuiJw" instance="_RoBZXftAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZW_tAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZXPtAEe-wFvvraPuiJw" name="reserv001" instance="_RoBZT_tAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZXftAEe-wFvvraPuiJw" name="paiement001">
+    <slot xmi:id="_RoBZXvtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZX_tAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZYPtAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZYftAEe-wFvvraPuiJw" name="paiement056">
+    <slot xmi:id="_RoBZYvtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZY_tAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZZPtAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZZftAEe-wFvvraPuiJw" name="sam">
+    <slot xmi:id="_RoBZZvtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZZ_tAEe-wFvvraPuiJw"/>
+    <specification xmi:type="uml:OpaqueExpression" xmi:id="_RoBZaPtAEe-wFvvraPuiJw">
+      <body>Gestionnaire</body>
+    </specification>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZaftAEe-wFvvraPuiJw">
+    <slot xmi:id="_RoBZavtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZa_tAEe-wFvvraPuiJw" name="residence001" instance="_RoBZc_tAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZbPtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZbftAEe-wFvvraPuiJw" instance="_RoBZZftAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZbvtAEe-wFvvraPuiJw">
+    <slot xmi:id="_RoBZb_tAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZcPtAEe-wFvvraPuiJw" name="residence005" instance="_RoBZk_tAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZcftAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZcvtAEe-wFvvraPuiJw" instance="_RoBZZftAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZc_tAEe-wFvvraPuiJw" name="residence001">
+    <slot xmi:id="_RoBZdPtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZdftAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZdvtAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZd_tAEe-wFvvraPuiJw">
+    <slot xmi:id="_RoBZePtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZeftAEe-wFvvraPuiJw" name="piece3" instance="_RoBZgftAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZevtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZe_tAEe-wFvvraPuiJw" instance="_RoBZc_tAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZfPtAEe-wFvvraPuiJw">
+    <slot xmi:id="_RoBZfftAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZfvtAEe-wFvvraPuiJw" name="piece1" instance="_RoBZnftAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZf_tAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZgPtAEe-wFvvraPuiJw" instance="_RoBZc_tAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZgftAEe-wFvvraPuiJw" name="piece3">
+    <slot xmi:id="_RoBZgvtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZg_tAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZhPtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZhftAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZhvtAEe-wFvvraPuiJw">
+    <slot xmi:id="_RoBZh_tAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZiPtAEe-wFvvraPuiJw" name="contrainte1" instance="_RoBZkPtAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZiftAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZivtAEe-wFvvraPuiJw" instance="_RoBZgftAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZi_tAEe-wFvvraPuiJw">
+    <slot xmi:id="_RoBZjPtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZjftAEe-wFvvraPuiJw" name="contrainte47" instance="_RoBZsftAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZjvtAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZj_tAEe-wFvvraPuiJw" instance="_RoBZgftAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZkPtAEe-wFvvraPuiJw" name="contrainte2">
+    <slot xmi:id="_RoBZkftAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZkvtAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZk_tAEe-wFvvraPuiJw" name="residence005">
+    <slot xmi:id="_RoBZlPtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZlftAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZlvtAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZl_tAEe-wFvvraPuiJw">
+    <slot xmi:id="_RoBZmPtAEe-wFvvraPuiJw">
+      <ownedComment xmi:id="_RoBZmftAEe-wFvvraPuiJw">
+        <body>&lt;Saisir le texte de la note ici></body>
+      </ownedComment>
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZmvtAEe-wFvvraPuiJw" name="piece4" instance="_RoBZp_tAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZm_tAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZnPtAEe-wFvvraPuiJw" instance="_RoBZk_tAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZnftAEe-wFvvraPuiJw" name="piece1">
+    <slot xmi:id="_RoBZnvtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZn_tAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZoPtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZoftAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZovtAEe-wFvvraPuiJw">
+    <slot xmi:id="_RoBZo_tAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZpPtAEe-wFvvraPuiJw" name="contrainte1" instance="_RoBZtftAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZpftAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZpvtAEe-wFvvraPuiJw" instance="_RoBZnftAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZp_tAEe-wFvvraPuiJw" name="piece4">
+    <slot xmi:id="_RoBZqPtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZqftAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZqvtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZq_tAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZrPtAEe-wFvvraPuiJw">
+    <slot xmi:id="_RoBZrftAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZrvtAEe-wFvvraPuiJw" name="contrainte5" instance="_RoBZuPtAEe-wFvvraPuiJw"/>
+    </slot>
+    <slot xmi:id="_RoBZr_tAEe-wFvvraPuiJw">
+      <value xmi:type="uml:InstanceValue" xmi:id="_RoBZsPtAEe-wFvvraPuiJw" instance="_RoBZp_tAEe-wFvvraPuiJw"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZsftAEe-wFvvraPuiJw" name="Contrainte 1">
+    <slot xmi:id="_RoBZsvtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZs_tAEe-wFvvraPuiJw"/>
+    <specification xmi:type="uml:OpaqueExpression" xmi:id="_RoBZtPtAEe-wFvvraPuiJw">
+      <body>tous les weekend</body>
+    </specification>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZtftAEe-wFvvraPuiJw" name="contrainte4">
+    <slot xmi:id="_RoBZtvtAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZt_tAEe-wFvvraPuiJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RoBZuPtAEe-wFvvraPuiJw" name="contrainte5">
+    <slot xmi:id="_RoBZuftAEe-wFvvraPuiJw"/>
+    <slot xmi:id="_RoBZuvtAEe-wFvvraPuiJw"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_XX_vwPtsEe-We_vKzKR0Gw" name="Sequence">
+  <eAnnotations xmi:id="_XX_vwftsEe-We_vKzKR0Gw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_XX_vwvtsEe-We_vKzKR0Gw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_XX_vw_tsEe-We_vKzKR0Gw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_XX_vxPtsEe-We_vKzKR0Gw" name="Modifier Reservation">
+    <ownedComment xmi:id="_XX_vxftsEe-We_vKzKR0Gw">
+      <body>&lt;Saisir le texte de la note ici></body>
+    </ownedComment>
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_XX_vxvtsEe-We_vKzKR0Gw" name="locals"/>
+    <lifeline xmi:id="_XX_vx_tsEe-We_vKzKR0Gw" name="Client" coveredBy="_XX_vy_tsEe-We_vKzKR0Gw _XX_vzPtsEe-We_vKzKR0Gw _XX_vzftsEe-We_vKzKR0Gw _XX_v0vtsEe-We_vKzKR0Gw _XX_v2_tsEe-We_vKzKR0Gw _XX_v5PtsEe-We_vKzKR0Gw _XX_v5ftsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_vyPtsEe-We_vKzKR0Gw" name="System" coveredBy="_XX_vzvtsEe-We_vKzKR0Gw _XX_vz_tsEe-We_vKzKR0Gw _XX_v0PtsEe-We_vKzKR0Gw _XX_v0ftsEe-We_vKzKR0Gw _XX_v0vtsEe-We_vKzKR0Gw _XX_v1vtsEe-We_vKzKR0Gw _XX_v2vtsEe-We_vKzKR0Gw _XX_v3PtsEe-We_vKzKR0Gw _XX_v4_tsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_vyftsEe-We_vKzKR0Gw" name="Gestionnaire" coveredBy="_XX_v0vtsEe-We_vKzKR0Gw _XX_v3ftsEe-We_vKzKR0Gw _XX_v3vtsEe-We_vKzKR0Gw _XX_v3_tsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_vyvtsEe-We_vKzKR0Gw" name="Reservation" coveredBy="_XX_v1_tsEe-We_vKzKR0Gw _XX_v2PtsEe-We_vKzKR0Gw _XX_v2ftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_vy_tsEe-We_vKzKR0Gw" covered="_XX_vx_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_vzPtsEe-We_vKzKR0Gw" covered="_XX_vx_tsEe-We_vKzKR0Gw" start="_XX_vy_tsEe-We_vKzKR0Gw" finish="_XX_v5ftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_vzftsEe-We_vKzKR0Gw" covered="_XX_vx_tsEe-We_vKzKR0Gw" message="_XX_v5vtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_vzvtsEe-We_vKzKR0Gw" covered="_XX_vyPtsEe-We_vKzKR0Gw" message="_XX_v5vtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_vz_tsEe-We_vKzKR0Gw" covered="_XX_vyPtsEe-We_vKzKR0Gw" start="_XX_vzvtsEe-We_vKzKR0Gw" finish="_XX_v4_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v0PtsEe-We_vKzKR0Gw" covered="_XX_vyPtsEe-We_vKzKR0Gw" message="_XX_v5_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v0ftsEe-We_vKzKR0Gw" covered="_XX_vyPtsEe-We_vKzKR0Gw" message="_XX_v5_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_XX_v0vtsEe-We_vKzKR0Gw" name="CombinedFragment" covered="_XX_vyftsEe-We_vKzKR0Gw _XX_vyPtsEe-We_vKzKR0Gw _XX_vx_tsEe-We_vKzKR0Gw" interactionOperator="alt">
+      <operand xmi:id="_XX_v0_tsEe-We_vKzKR0Gw" name="InteractionOperand">
+        <guard xmi:id="_XX_v1PtsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_v1ftsEe-We_vKzKR0Gw" value="Si disponibilité OK"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v1vtsEe-We_vKzKR0Gw" covered="_XX_vyPtsEe-We_vKzKR0Gw" message="_XX_v6PtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v1_tsEe-We_vKzKR0Gw" covered="_XX_vyvtsEe-We_vKzKR0Gw" message="_XX_v6PtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_v2PtsEe-We_vKzKR0Gw" covered="_XX_vyvtsEe-We_vKzKR0Gw" start="_XX_v1_tsEe-We_vKzKR0Gw" finish="_XX_v2ftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_v2ftsEe-We_vKzKR0Gw" covered="_XX_vyvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v2vtsEe-We_vKzKR0Gw" covered="_XX_vyPtsEe-We_vKzKR0Gw" message="_XX_v6ftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v2_tsEe-We_vKzKR0Gw" covered="_XX_vx_tsEe-We_vKzKR0Gw" message="_XX_v6ftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v3PtsEe-We_vKzKR0Gw" covered="_XX_vyPtsEe-We_vKzKR0Gw" message="_XX_v6vtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v3ftsEe-We_vKzKR0Gw" covered="_XX_vyftsEe-We_vKzKR0Gw" message="_XX_v6vtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_v3vtsEe-We_vKzKR0Gw" covered="_XX_vyftsEe-We_vKzKR0Gw" start="_XX_v3ftsEe-We_vKzKR0Gw" finish="_XX_v3_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_v3_tsEe-We_vKzKR0Gw" covered="_XX_vyftsEe-We_vKzKR0Gw"/>
+      </operand>
+      <operand xmi:id="_XX_v4PtsEe-We_vKzKR0Gw">
+        <guard xmi:id="_XX_v4ftsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_v4vtsEe-We_vKzKR0Gw" value="Si disponibilité non OK"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v4_tsEe-We_vKzKR0Gw" covered="_XX_vyPtsEe-We_vKzKR0Gw" message="_XX_v6_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v5PtsEe-We_vKzKR0Gw" covered="_XX_vx_tsEe-We_vKzKR0Gw" message="_XX_v6_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_v5ftsEe-We_vKzKR0Gw" covered="_XX_vx_tsEe-We_vKzKR0Gw"/>
+      </operand>
+    </fragment>
+    <message xmi:id="_XX_v5vtsEe-We_vKzKR0Gw" name="modifierReservation (id)" receiveEvent="_XX_vzvtsEe-We_vKzKR0Gw" sendEvent="_XX_vzftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_v5_tsEe-We_vKzKR0Gw" name="verifer Disponibilté" receiveEvent="_XX_v0ftsEe-We_vKzKR0Gw" sendEvent="_XX_v0PtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_v6PtsEe-We_vKzKR0Gw" name="Modifer la reservation" messageSort="asynchCall" receiveEvent="_XX_v1_tsEe-We_vKzKR0Gw" sendEvent="_XX_v1vtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_v6ftsEe-We_vKzKR0Gw" name="Email de  confirmation de modifications" messageSort="reply" receiveEvent="_XX_v2_tsEe-We_vKzKR0Gw" sendEvent="_XX_v2vtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_v6vtsEe-We_vKzKR0Gw" name="notification de modificationReservation" messageSort="reply" receiveEvent="_XX_v3ftsEe-We_vKzKR0Gw" sendEvent="_XX_v3PtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_v6_tsEe-We_vKzKR0Gw" name="Erreur Modification" messageSort="reply" receiveEvent="_XX_v5PtsEe-We_vKzKR0Gw" sendEvent="_XX_v4_tsEe-We_vKzKR0Gw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_XX_v7PtsEe-We_vKzKR0Gw" name="Annuler Reservation">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_XX_v7ftsEe-We_vKzKR0Gw" name="locals"/>
+    <lifeline xmi:id="_XX_v7vtsEe-We_vKzKR0Gw" name="Client" coveredBy="_XX_v8_tsEe-We_vKzKR0Gw _XX_v9PtsEe-We_vKzKR0Gw _XX_v9ftsEe-We_vKzKR0Gw _XX_v-_tsEe-We_vKzKR0Gw _XX_wAftsEe-We_vKzKR0Gw _XX_wCPtsEe-We_vKzKR0Gw _XX_wEvtsEe-We_vKzKR0Gw _XX_wFPtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_v7_tsEe-We_vKzKR0Gw" name="System" coveredBy="_XX_v9vtsEe-We_vKzKR0Gw _XX_v9_tsEe-We_vKzKR0Gw _XX_v-PtsEe-We_vKzKR0Gw _XX_v-vtsEe-We_vKzKR0Gw _XX_v_PtsEe-We_vKzKR0Gw _XX_wAftsEe-We_vKzKR0Gw _XX_wBvtsEe-We_vKzKR0Gw _XX_wB_tsEe-We_vKzKR0Gw _XX_wDftsEe-We_vKzKR0Gw _XX_wDvtsEe-We_vKzKR0Gw _XX_wEftsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_v8PtsEe-We_vKzKR0Gw" name="Système Bancaire" coveredBy="_XX_v_ftsEe-We_vKzKR0Gw _XX_v_vtsEe-We_vKzKR0Gw _XX_v__tsEe-We_vKzKR0Gw _XX_wAPtsEe-We_vKzKR0Gw _XX_wAftsEe-We_vKzKR0Gw _XX_wBftsEe-We_vKzKR0Gw _XX_wDPtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_v8ftsEe-We_vKzKR0Gw" name="Gestionnaire" coveredBy="_XX_wD_tsEe-We_vKzKR0Gw _XX_wEPtsEe-We_vKzKR0Gw _XX_wE_tsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_v8vtsEe-We_vKzKR0Gw" name="Reservation001" coveredBy="_XX_v-ftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_v8_tsEe-We_vKzKR0Gw" covered="_XX_v7vtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_v9PtsEe-We_vKzKR0Gw" covered="_XX_v7vtsEe-We_vKzKR0Gw" start="_XX_v8_tsEe-We_vKzKR0Gw" finish="_XX_wFPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v9ftsEe-We_vKzKR0Gw" covered="_XX_v7vtsEe-We_vKzKR0Gw" message="_XX_wFftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v9vtsEe-We_vKzKR0Gw" covered="_XX_v7_tsEe-We_vKzKR0Gw" message="_XX_wFftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_v9_tsEe-We_vKzKR0Gw" covered="_XX_v7_tsEe-We_vKzKR0Gw" start="_XX_v9vtsEe-We_vKzKR0Gw" finish="_XX_wEftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v-PtsEe-We_vKzKR0Gw" covered="_XX_v7_tsEe-We_vKzKR0Gw" message="_XX_wFvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v-ftsEe-We_vKzKR0Gw" covered="_XX_v8vtsEe-We_vKzKR0Gw" message="_XX_wFvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v-vtsEe-We_vKzKR0Gw" covered="_XX_v7_tsEe-We_vKzKR0Gw" message="_XX_wF_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v-_tsEe-We_vKzKR0Gw" covered="_XX_v7vtsEe-We_vKzKR0Gw" message="_XX_wF_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v_PtsEe-We_vKzKR0Gw" covered="_XX_v7_tsEe-We_vKzKR0Gw" message="_XX_wGPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v_ftsEe-We_vKzKR0Gw" covered="_XX_v8PtsEe-We_vKzKR0Gw" message="_XX_wGPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_v_vtsEe-We_vKzKR0Gw" covered="_XX_v8PtsEe-We_vKzKR0Gw" start="_XX_v_ftsEe-We_vKzKR0Gw" finish="_XX_wDPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_v__tsEe-We_vKzKR0Gw" covered="_XX_v8PtsEe-We_vKzKR0Gw" message="_XX_wGftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wAPtsEe-We_vKzKR0Gw" covered="_XX_v8PtsEe-We_vKzKR0Gw" message="_XX_wGftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_XX_wAftsEe-We_vKzKR0Gw" name="CombinedFragment" covered="_XX_v7_tsEe-We_vKzKR0Gw _XX_v7vtsEe-We_vKzKR0Gw _XX_v8PtsEe-We_vKzKR0Gw" interactionOperator="alt">
+      <operand xmi:id="_XX_wAvtsEe-We_vKzKR0Gw" name="InteractionOperand">
+        <guard xmi:id="_XX_wA_tsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_wBPtsEe-We_vKzKR0Gw" value="Si operation non OK"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wBftsEe-We_vKzKR0Gw" covered="_XX_v8PtsEe-We_vKzKR0Gw" message="_XX_wGvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wBvtsEe-We_vKzKR0Gw" covered="_XX_v7_tsEe-We_vKzKR0Gw" message="_XX_wGvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wB_tsEe-We_vKzKR0Gw" covered="_XX_v7_tsEe-We_vKzKR0Gw" message="_XX_wG_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wCPtsEe-We_vKzKR0Gw" covered="_XX_v7vtsEe-We_vKzKR0Gw" message="_XX_wG_tsEe-We_vKzKR0Gw"/>
+      </operand>
+      <operand xmi:id="_XX_wCftsEe-We_vKzKR0Gw">
+        <guard xmi:id="_XX_wCvtsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_wC_tsEe-We_vKzKR0Gw" value="Si operation OK"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wDPtsEe-We_vKzKR0Gw" covered="_XX_v8PtsEe-We_vKzKR0Gw" message="_XX_wHPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wDftsEe-We_vKzKR0Gw" covered="_XX_v7_tsEe-We_vKzKR0Gw" message="_XX_wHPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wDvtsEe-We_vKzKR0Gw" covered="_XX_v7_tsEe-We_vKzKR0Gw" message="_XX_wHftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wD_tsEe-We_vKzKR0Gw" covered="_XX_v8ftsEe-We_vKzKR0Gw" message="_XX_wHftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wEPtsEe-We_vKzKR0Gw" covered="_XX_v8ftsEe-We_vKzKR0Gw" start="_XX_wD_tsEe-We_vKzKR0Gw" finish="_XX_wE_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wEftsEe-We_vKzKR0Gw" covered="_XX_v7_tsEe-We_vKzKR0Gw" message="_XX_wHvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wEvtsEe-We_vKzKR0Gw" covered="_XX_v7vtsEe-We_vKzKR0Gw" message="_XX_wHvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wE_tsEe-We_vKzKR0Gw" covered="_XX_v8ftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wFPtsEe-We_vKzKR0Gw" covered="_XX_v7vtsEe-We_vKzKR0Gw"/>
+      </operand>
+    </fragment>
+    <message xmi:id="_XX_wFftsEe-We_vKzKR0Gw" name="annulerReservation (id)" receiveEvent="_XX_v9vtsEe-We_vKzKR0Gw" sendEvent="_XX_v9ftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wFvtsEe-We_vKzKR0Gw" name="Supprimer la reservation" messageSort="deleteMessage" receiveEvent="_XX_v-ftsEe-We_vKzKR0Gw" sendEvent="_XX_v-PtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wF_tsEe-We_vKzKR0Gw" name="annulation reservation (attente de remboursement)" messageSort="reply" receiveEvent="_XX_v-_tsEe-We_vKzKR0Gw" sendEvent="_XX_v-vtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wGPtsEe-We_vKzKR0Gw" name="DemandeRemboursement(id)" receiveEvent="_XX_v_ftsEe-We_vKzKR0Gw" sendEvent="_XX_v_PtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wGftsEe-We_vKzKR0Gw" name="opération" receiveEvent="_XX_wAPtsEe-We_vKzKR0Gw" sendEvent="_XX_v__tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wGvtsEe-We_vKzKR0Gw" name="Opération refusée" messageSort="reply" receiveEvent="_XX_wBvtsEe-We_vKzKR0Gw" sendEvent="_XX_wBftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wG_tsEe-We_vKzKR0Gw" name="Erreur d'annulation" messageSort="reply" receiveEvent="_XX_wCPtsEe-We_vKzKR0Gw" sendEvent="_XX_wB_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wHPtsEe-We_vKzKR0Gw" name="Opération acceptée" messageSort="reply" receiveEvent="_XX_wDftsEe-We_vKzKR0Gw" sendEvent="_XX_wDPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wHftsEe-We_vKzKR0Gw" name="notification d'annulation" messageSort="asynchCall" receiveEvent="_XX_wD_tsEe-We_vKzKR0Gw" sendEvent="_XX_wDvtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wHvtsEe-We_vKzKR0Gw" name="Email de confirmation d'annulation et remboursement" messageSort="reply" receiveEvent="_XX_wEvtsEe-We_vKzKR0Gw" sendEvent="_XX_wEftsEe-We_vKzKR0Gw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_XX_wH_tsEe-We_vKzKR0Gw" name="Reserver Residence">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_XX_wIPtsEe-We_vKzKR0Gw" name="locals"/>
+    <lifeline xmi:id="_XX_wIftsEe-We_vKzKR0Gw" name="Client" coveredBy="_XX_wJvtsEe-We_vKzKR0Gw _XX_wJ_tsEe-We_vKzKR0Gw _XX_wKPtsEe-We_vKzKR0Gw _XX_wLPtsEe-We_vKzKR0Gw _XX_wLftsEe-We_vKzKR0Gw _XX_wMftsEe-We_vKzKR0Gw _XX_wMvtsEe-We_vKzKR0Gw _XX_wOPtsEe-We_vKzKR0Gw _XX_wP_tsEe-We_vKzKR0Gw _XX_wQPtsEe-We_vKzKR0Gw _XX_wR_tsEe-We_vKzKR0Gw _XX_wSPtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wIvtsEe-We_vKzKR0Gw" name="System" coveredBy="_XX_wKftsEe-We_vKzKR0Gw _XX_wKvtsEe-We_vKzKR0Gw _XX_wK_tsEe-We_vKzKR0Gw _XX_wLvtsEe-We_vKzKR0Gw _XX_wL_tsEe-We_vKzKR0Gw _XX_wMPtsEe-We_vKzKR0Gw _XX_wM_tsEe-We_vKzKR0Gw _XX_wNPtsEe-We_vKzKR0Gw _XX_wNftsEe-We_vKzKR0Gw _XX_wOPtsEe-We_vKzKR0Gw _XX_wPftsEe-We_vKzKR0Gw _XX_wPvtsEe-We_vKzKR0Gw _XX_wQPtsEe-We_vKzKR0Gw _XX_wRftsEe-We_vKzKR0Gw _XX_wRvtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wI_tsEe-We_vKzKR0Gw" name="Gestionnaire" coveredBy="_XX_wNvtsEe-We_vKzKR0Gw _XX_wN_tsEe-We_vKzKR0Gw _XX_wOPtsEe-We_vKzKR0Gw _XX_wPPtsEe-We_vKzKR0Gw _XX_wQPtsEe-We_vKzKR0Gw _XX_wRPtsEe-We_vKzKR0Gw">
+      <ownedComment xmi:id="_XX_wJPtsEe-We_vKzKR0Gw">
+        <body>&lt;Saisir le texte de la note ici></body>
+      </ownedComment>
+    </lifeline>
+    <lifeline xmi:id="_XX_wJftsEe-We_vKzKR0Gw" name="System Bancaire" coveredBy="_XX_wOPtsEe-We_vKzKR0Gw _XX_wQPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wJvtsEe-We_vKzKR0Gw" covered="_XX_wIftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wJ_tsEe-We_vKzKR0Gw" covered="_XX_wIftsEe-We_vKzKR0Gw" start="_XX_wJvtsEe-We_vKzKR0Gw" finish="_XX_wSPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wKPtsEe-We_vKzKR0Gw" covered="_XX_wIftsEe-We_vKzKR0Gw" message="_XX_wSftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wKftsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" message="_XX_wSftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wKvtsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" start="_XX_wKftsEe-We_vKzKR0Gw" finish="_XX_wK_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wK_tsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" message="_XX_wSvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wLPtsEe-We_vKzKR0Gw" covered="_XX_wIftsEe-We_vKzKR0Gw" message="_XX_wSvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wLftsEe-We_vKzKR0Gw" covered="_XX_wIftsEe-We_vKzKR0Gw" message="_XX_wS_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wLvtsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" message="_XX_wS_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wL_tsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" start="_XX_wLvtsEe-We_vKzKR0Gw" finish="_XX_wMPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wMPtsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" message="_XX_wTPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wMftsEe-We_vKzKR0Gw" covered="_XX_wIftsEe-We_vKzKR0Gw" message="_XX_wTPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wMvtsEe-We_vKzKR0Gw" covered="_XX_wIftsEe-We_vKzKR0Gw" message="_XX_wTftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wM_tsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" message="_XX_wTftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wNPtsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" start="_XX_wM_tsEe-We_vKzKR0Gw" finish="_XX_wRvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wNftsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" message="_XX_wTvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wNvtsEe-We_vKzKR0Gw" covered="_XX_wI_tsEe-We_vKzKR0Gw" message="_XX_wTvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wN_tsEe-We_vKzKR0Gw" covered="_XX_wI_tsEe-We_vKzKR0Gw" start="_XX_wNvtsEe-We_vKzKR0Gw" finish="_XX_wRPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_XX_wOPtsEe-We_vKzKR0Gw" name="CombinedFragment" covered="_XX_wIftsEe-We_vKzKR0Gw _XX_wI_tsEe-We_vKzKR0Gw _XX_wJftsEe-We_vKzKR0Gw _XX_wIvtsEe-We_vKzKR0Gw" interactionOperator="alt">
+      <operand xmi:id="_XX_wOftsEe-We_vKzKR0Gw" name="InteractionOperand">
+        <guard xmi:id="_XX_wOvtsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_wO_tsEe-We_vKzKR0Gw" value="Si demande OK"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wPPtsEe-We_vKzKR0Gw" covered="_XX_wI_tsEe-We_vKzKR0Gw" message="_XX_wT_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wPftsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" message="_XX_wT_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wPvtsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" message="_XX_wUPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wP_tsEe-We_vKzKR0Gw" covered="_XX_wIftsEe-We_vKzKR0Gw" message="_XX_wUPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:InteractionUse" xmi:id="_XX_wQPtsEe-We_vKzKR0Gw" name="Payer Reservation" covered="_XX_wIvtsEe-We_vKzKR0Gw _XX_wJftsEe-We_vKzKR0Gw _XX_wI_tsEe-We_vKzKR0Gw _XX_wIftsEe-We_vKzKR0Gw"/>
+      </operand>
+      <operand xmi:id="_XX_wQftsEe-We_vKzKR0Gw">
+        <guard xmi:id="_XX_wQvtsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_wQ_tsEe-We_vKzKR0Gw" value="Si demande non OK"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wRPtsEe-We_vKzKR0Gw" covered="_XX_wI_tsEe-We_vKzKR0Gw" message="_XX_wUftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wRftsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" message="_XX_wUftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wRvtsEe-We_vKzKR0Gw" covered="_XX_wIvtsEe-We_vKzKR0Gw" message="_XX_wUvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wR_tsEe-We_vKzKR0Gw" covered="_XX_wIftsEe-We_vKzKR0Gw" message="_XX_wUvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wSPtsEe-We_vKzKR0Gw" covered="_XX_wIftsEe-We_vKzKR0Gw"/>
+      </operand>
+    </fragment>
+    <message xmi:id="_XX_wSftsEe-We_vKzKR0Gw" name="voirLogements( )" receiveEvent="_XX_wKftsEe-We_vKzKR0Gw" sendEvent="_XX_wKPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wSvtsEe-We_vKzKR0Gw" name="Affichage des logements" messageSort="reply" receiveEvent="_XX_wLPtsEe-We_vKzKR0Gw" sendEvent="_XX_wK_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wS_tsEe-We_vKzKR0Gw" name="consulterLogement (id)" receiveEvent="_XX_wLvtsEe-We_vKzKR0Gw" sendEvent="_XX_wLftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wTPtsEe-We_vKzKR0Gw" name="Affichage du logement" messageSort="reply" receiveEvent="_XX_wMftsEe-We_vKzKR0Gw" sendEvent="_XX_wMPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wTftsEe-We_vKzKR0Gw" name="reserverLogement (id)" receiveEvent="_XX_wM_tsEe-We_vKzKR0Gw" sendEvent="_XX_wMvtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wTvtsEe-We_vKzKR0Gw" name="demande de Reservation" receiveEvent="_XX_wNvtsEe-We_vKzKR0Gw" sendEvent="_XX_wNftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wT_tsEe-We_vKzKR0Gw" name="accepterReservation (id)" messageSort="reply" receiveEvent="_XX_wPftsEe-We_vKzKR0Gw" sendEvent="_XX_wPPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wUPtsEe-We_vKzKR0Gw" name="Demande de paiement" messageSort="reply" receiveEvent="_XX_wP_tsEe-We_vKzKR0Gw" sendEvent="_XX_wPvtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wUftsEe-We_vKzKR0Gw" name="refuserReservation (id)" messageSort="reply" receiveEvent="_XX_wRftsEe-We_vKzKR0Gw" sendEvent="_XX_wRPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wUvtsEe-We_vKzKR0Gw" name="Reservation non disponible" messageSort="reply" receiveEvent="_XX_wR_tsEe-We_vKzKR0Gw" sendEvent="_XX_wRvtsEe-We_vKzKR0Gw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_XX_wU_tsEe-We_vKzKR0Gw" name="Payer Residence">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_XX_wVPtsEe-We_vKzKR0Gw" name="locals"/>
+    <lifeline xmi:id="_XX_wVftsEe-We_vKzKR0Gw" name="Client" coveredBy="_XX_wWvtsEe-We_vKzKR0Gw _XX_wW_tsEe-We_vKzKR0Gw _XX_wXPtsEe-We_vKzKR0Gw _XX_wZvtsEe-We_vKzKR0Gw _XX_wZ_tsEe-We_vKzKR0Gw _XX_wa_tsEe-We_vKzKR0Gw _XX_wcPtsEe-We_vKzKR0Gw _XX_wdftsEe-We_vKzKR0Gw _XX_we_tsEe-We_vKzKR0Gw _XX_wh_tsEe-We_vKzKR0Gw _XX_wi_tsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wVvtsEe-We_vKzKR0Gw" name="System" coveredBy="_XX_wXftsEe-We_vKzKR0Gw _XX_wXvtsEe-We_vKzKR0Gw _XX_wYftsEe-We_vKzKR0Gw _XX_wZPtsEe-We_vKzKR0Gw _XX_wZftsEe-We_vKzKR0Gw _XX_wa_tsEe-We_vKzKR0Gw _XX_wcvtsEe-We_vKzKR0Gw _XX_wc_tsEe-We_vKzKR0Gw _XX_wdPtsEe-We_vKzKR0Gw _XX_wdvtsEe-We_vKzKR0Gw _XX_wfftsEe-We_vKzKR0Gw _XX_wfvtsEe-We_vKzKR0Gw _XX_wf_tsEe-We_vKzKR0Gw _XX_wgPtsEe-We_vKzKR0Gw _XX_wgftsEe-We_vKzKR0Gw _XX_wg_tsEe-We_vKzKR0Gw _XX_whvtsEe-We_vKzKR0Gw _XX_wiPtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wV_tsEe-We_vKzKR0Gw" name="Gestionnaire" coveredBy="_XX_wa_tsEe-We_vKzKR0Gw _XX_whPtsEe-We_vKzKR0Gw _XX_whftsEe-We_vKzKR0Gw _XX_wiftsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wWPtsEe-We_vKzKR0Gw" name="System bancaire" coveredBy="_XX_wX_tsEe-We_vKzKR0Gw _XX_wYPtsEe-We_vKzKR0Gw _XX_wYvtsEe-We_vKzKR0Gw _XX_wY_tsEe-We_vKzKR0Gw _XX_waPtsEe-We_vKzKR0Gw _XX_waftsEe-We_vKzKR0Gw _XX_wavtsEe-We_vKzKR0Gw _XX_wa_tsEe-We_vKzKR0Gw _XX_wb_tsEe-We_vKzKR0Gw _XX_wcftsEe-We_vKzKR0Gw _XX_wevtsEe-We_vKzKR0Gw _XX_wfPtsEe-We_vKzKR0Gw _XX_wivtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wWftsEe-We_vKzKR0Gw" name="Reservation" coveredBy="_XX_wgvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wWvtsEe-We_vKzKR0Gw" covered="_XX_wVftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wW_tsEe-We_vKzKR0Gw" covered="_XX_wVftsEe-We_vKzKR0Gw" start="_XX_wWvtsEe-We_vKzKR0Gw" finish="_XX_wi_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wXPtsEe-We_vKzKR0Gw" covered="_XX_wVftsEe-We_vKzKR0Gw" message="_XX_wjPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wXftsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wjPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wXvtsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" start="_XX_wXftsEe-We_vKzKR0Gw" finish="_XX_wZftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wX_tsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wYPtsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw" start="_XX_wX_tsEe-We_vKzKR0Gw" finish="_XX_wivtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wYftsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wjftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wYvtsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw" message="_XX_wjftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wY_tsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw" message="_XX_wjvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wZPtsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wjvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wZftsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wj_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wZvtsEe-We_vKzKR0Gw" covered="_XX_wVftsEe-We_vKzKR0Gw" message="_XX_wj_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wZ_tsEe-We_vKzKR0Gw" covered="_XX_wVftsEe-We_vKzKR0Gw" message="_XX_wkPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_waPtsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw" message="_XX_wkPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_waftsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw" message="_XX_wkftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wavtsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw" message="_XX_wkftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_XX_wa_tsEe-We_vKzKR0Gw" name="CombinedFragment" covered="_XX_wWPtsEe-We_vKzKR0Gw _XX_wVvtsEe-We_vKzKR0Gw _XX_wV_tsEe-We_vKzKR0Gw _XX_wVftsEe-We_vKzKR0Gw" interactionOperator="alt">
+      <operand xmi:id="_XX_wbPtsEe-We_vKzKR0Gw" name="InteractionOperand">
+        <guard xmi:id="_XX_wbftsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_wbvtsEe-We_vKzKR0Gw" value="verification non OK"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wb_tsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw" message="_XX_wkvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wcPtsEe-We_vKzKR0Gw" covered="_XX_wVftsEe-We_vKzKR0Gw" message="_XX_wkvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wcftsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw" message="_XX_wk_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wcvtsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wk_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wc_tsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" start="_XX_wcvtsEe-We_vKzKR0Gw" finish="_XX_wdvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wdPtsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wlPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wdftsEe-We_vKzKR0Gw" covered="_XX_wVftsEe-We_vKzKR0Gw" message="_XX_wlPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wdvtsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw"/>
+      </operand>
+      <operand xmi:id="_XX_wd_tsEe-We_vKzKR0Gw">
+        <guard xmi:id="_XX_wePtsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_weftsEe-We_vKzKR0Gw" value="Verification OK"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wevtsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw" message="_XX_wlftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_we_tsEe-We_vKzKR0Gw" covered="_XX_wVftsEe-We_vKzKR0Gw" message="_XX_wlftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wfPtsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw" message="_XX_wlvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wfftsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wlvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wfvtsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" start="_XX_wfftsEe-We_vKzKR0Gw" finish="_XX_wiPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wf_tsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wl_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wgPtsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wl_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wgftsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wmPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wgvtsEe-We_vKzKR0Gw" covered="_XX_wWftsEe-We_vKzKR0Gw" message="_XX_wmPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wg_tsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wmftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_whPtsEe-We_vKzKR0Gw" covered="_XX_wV_tsEe-We_vKzKR0Gw" message="_XX_wmftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_whftsEe-We_vKzKR0Gw" covered="_XX_wV_tsEe-We_vKzKR0Gw" start="_XX_whPtsEe-We_vKzKR0Gw" finish="_XX_wiftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_whvtsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw" message="_XX_wmvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wh_tsEe-We_vKzKR0Gw" covered="_XX_wVftsEe-We_vKzKR0Gw" message="_XX_wmvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wiPtsEe-We_vKzKR0Gw" covered="_XX_wVvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wiftsEe-We_vKzKR0Gw" covered="_XX_wV_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wivtsEe-We_vKzKR0Gw" covered="_XX_wWPtsEe-We_vKzKR0Gw"/>
+      </operand>
+    </fragment>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wi_tsEe-We_vKzKR0Gw" covered="_XX_wVftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wjPtsEe-We_vKzKR0Gw" name="payerReservation" receiveEvent="_XX_wXftsEe-We_vKzKR0Gw" sendEvent="_XX_wXPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wjftsEe-We_vKzKR0Gw" name="demande client" receiveEvent="_XX_wYvtsEe-We_vKzKR0Gw" sendEvent="_XX_wYftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wjvtsEe-We_vKzKR0Gw" name="Ouverture opération" messageSort="asynchCall" receiveEvent="_XX_wZPtsEe-We_vKzKR0Gw" sendEvent="_XX_wY_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wj_tsEe-We_vKzKR0Gw" name="redirection systeme bancaire" messageSort="reply" receiveEvent="_XX_wZvtsEe-We_vKzKR0Gw" sendEvent="_XX_wZftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wkPtsEe-We_vKzKR0Gw" name="Valider Paiement" receiveEvent="_XX_waPtsEe-We_vKzKR0Gw" sendEvent="_XX_wZ_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wkftsEe-We_vKzKR0Gw" name="Verification" receiveEvent="_XX_wavtsEe-We_vKzKR0Gw" sendEvent="_XX_waftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wkvtsEe-We_vKzKR0Gw" name="Paiement refusée" messageSort="reply" receiveEvent="_XX_wcPtsEe-We_vKzKR0Gw" sendEvent="_XX_wb_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wk_tsEe-We_vKzKR0Gw" name="Fin opération (non OK)" messageSort="asynchCall" receiveEvent="_XX_wcvtsEe-We_vKzKR0Gw" sendEvent="_XX_wcftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wlPtsEe-We_vKzKR0Gw" name="Erreur paiement" messageSort="asynchCall" receiveEvent="_XX_wdftsEe-We_vKzKR0Gw" sendEvent="_XX_wdPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wlftsEe-We_vKzKR0Gw" name="Paiement effectué" messageSort="reply" receiveEvent="_XX_we_tsEe-We_vKzKR0Gw" sendEvent="_XX_wevtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wlvtsEe-We_vKzKR0Gw" name="Fin opération (OK)" messageSort="asynchCall" receiveEvent="_XX_wfftsEe-We_vKzKR0Gw" sendEvent="_XX_wfPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wl_tsEe-We_vKzKR0Gw" name="calcul automatiaue du coutLoyer" messageSort="asynchCall" receiveEvent="_XX_wgPtsEe-We_vKzKR0Gw" sendEvent="_XX_wf_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wmPtsEe-We_vKzKR0Gw" name="creer" messageSort="createMessage" receiveEvent="_XX_wgvtsEe-We_vKzKR0Gw" sendEvent="_XX_wgftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wmftsEe-We_vKzKR0Gw" name="notification " messageSort="asynchCall" receiveEvent="_XX_whPtsEe-We_vKzKR0Gw" sendEvent="_XX_wg_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wmvtsEe-We_vKzKR0Gw" name="Email de confirmation de reservation" messageSort="asynchCall" receiveEvent="_XX_wh_tsEe-We_vKzKR0Gw" sendEvent="_XX_whvtsEe-We_vKzKR0Gw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_XX_wm_tsEe-We_vKzKR0Gw" name="Donner Avis">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_XX_wnPtsEe-We_vKzKR0Gw" name="locals"/>
+    <lifeline xmi:id="_XX_wnftsEe-We_vKzKR0Gw" name="Client" coveredBy="_XX_woftsEe-We_vKzKR0Gw _XX_wovtsEe-We_vKzKR0Gw _XX_wo_tsEe-We_vKzKR0Gw _XX_wrftsEe-We_vKzKR0Gw _XX_wtPtsEe-We_vKzKR0Gw _XX_wvftsEe-We_vKzKR0Gw _XX_wvvtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wnvtsEe-We_vKzKR0Gw" name="Système" coveredBy="_XX_wpPtsEe-We_vKzKR0Gw _XX_wpftsEe-We_vKzKR0Gw _XX_wpvtsEe-We_vKzKR0Gw _XX_wqvtsEe-We_vKzKR0Gw _XX_wrftsEe-We_vKzKR0Gw _XX_wsvtsEe-We_vKzKR0Gw _XX_ws_tsEe-We_vKzKR0Gw _XX_wuftsEe-We_vKzKR0Gw _XX_wuvtsEe-We_vKzKR0Gw _XX_wu_tsEe-We_vKzKR0Gw _XX_wvPtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wn_tsEe-We_vKzKR0Gw" name="Reservation" coveredBy="_XX_wp_tsEe-We_vKzKR0Gw _XX_wqPtsEe-We_vKzKR0Gw _XX_wqftsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_woPtsEe-We_vKzKR0Gw" name="Gestionnaire" coveredBy="_XX_wq_tsEe-We_vKzKR0Gw _XX_wrPtsEe-We_vKzKR0Gw _XX_wrftsEe-We_vKzKR0Gw _XX_wsftsEe-We_vKzKR0Gw _XX_wuPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_woftsEe-We_vKzKR0Gw" covered="_XX_wnftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wovtsEe-We_vKzKR0Gw" covered="_XX_wnftsEe-We_vKzKR0Gw" start="_XX_woftsEe-We_vKzKR0Gw" finish="_XX_wvvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wo_tsEe-We_vKzKR0Gw" covered="_XX_wnftsEe-We_vKzKR0Gw" message="_XX_wv_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wpPtsEe-We_vKzKR0Gw" covered="_XX_wnvtsEe-We_vKzKR0Gw" message="_XX_wv_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wpftsEe-We_vKzKR0Gw" covered="_XX_wnvtsEe-We_vKzKR0Gw" start="_XX_wpPtsEe-We_vKzKR0Gw" finish="_XX_wvPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wpvtsEe-We_vKzKR0Gw" covered="_XX_wnvtsEe-We_vKzKR0Gw" message="_XX_wwPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wp_tsEe-We_vKzKR0Gw" covered="_XX_wn_tsEe-We_vKzKR0Gw" message="_XX_wwPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wqPtsEe-We_vKzKR0Gw" covered="_XX_wn_tsEe-We_vKzKR0Gw" start="_XX_wp_tsEe-We_vKzKR0Gw" finish="_XX_wqftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wqftsEe-We_vKzKR0Gw" covered="_XX_wn_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wqvtsEe-We_vKzKR0Gw" covered="_XX_wnvtsEe-We_vKzKR0Gw" message="_XX_wwftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wq_tsEe-We_vKzKR0Gw" covered="_XX_woPtsEe-We_vKzKR0Gw" message="_XX_wwftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_wrPtsEe-We_vKzKR0Gw" covered="_XX_woPtsEe-We_vKzKR0Gw" start="_XX_wq_tsEe-We_vKzKR0Gw" finish="_XX_wuPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_XX_wrftsEe-We_vKzKR0Gw" name="CombinedFragment" covered="_XX_wnvtsEe-We_vKzKR0Gw _XX_wnftsEe-We_vKzKR0Gw _XX_woPtsEe-We_vKzKR0Gw" interactionOperator="alt">
+      <operand xmi:id="_XX_wrvtsEe-We_vKzKR0Gw" name="InteractionOperand">
+        <guard xmi:id="_XX_wr_tsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_wsPtsEe-We_vKzKR0Gw" value="si demande  non OK"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wsftsEe-We_vKzKR0Gw" covered="_XX_woPtsEe-We_vKzKR0Gw" message="_XX_wwvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wsvtsEe-We_vKzKR0Gw" covered="_XX_wnvtsEe-We_vKzKR0Gw" message="_XX_wwvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_ws_tsEe-We_vKzKR0Gw" covered="_XX_wnvtsEe-We_vKzKR0Gw" message="_XX_ww_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wtPtsEe-We_vKzKR0Gw" covered="_XX_wnftsEe-We_vKzKR0Gw" message="_XX_ww_tsEe-We_vKzKR0Gw"/>
+      </operand>
+      <operand xmi:id="_XX_wtftsEe-We_vKzKR0Gw">
+        <guard xmi:id="_XX_wtvtsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_wt_tsEe-We_vKzKR0Gw" value="si Demande OK"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wuPtsEe-We_vKzKR0Gw" covered="_XX_woPtsEe-We_vKzKR0Gw" message="_XX_wxPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wuftsEe-We_vKzKR0Gw" covered="_XX_wnvtsEe-We_vKzKR0Gw" message="_XX_wxPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wuvtsEe-We_vKzKR0Gw" covered="_XX_wnvtsEe-We_vKzKR0Gw" message="_XX_wxftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wu_tsEe-We_vKzKR0Gw" covered="_XX_wnvtsEe-We_vKzKR0Gw" message="_XX_wxftsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wvPtsEe-We_vKzKR0Gw" covered="_XX_wnvtsEe-We_vKzKR0Gw" message="_XX_wxvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_wvftsEe-We_vKzKR0Gw" covered="_XX_wnftsEe-We_vKzKR0Gw" message="_XX_wxvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_wvvtsEe-We_vKzKR0Gw" covered="_XX_wnftsEe-We_vKzKR0Gw"/>
+      </operand>
+    </fragment>
+    <message xmi:id="_XX_wv_tsEe-We_vKzKR0Gw" name="donnerAvis(note, avis)" receiveEvent="_XX_wpPtsEe-We_vKzKR0Gw" sendEvent="_XX_wo_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wwPtsEe-We_vKzKR0Gw" name="enregistrer avis" messageSort="asynchCall" receiveEvent="_XX_wp_tsEe-We_vKzKR0Gw" sendEvent="_XX_wpvtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wwftsEe-We_vKzKR0Gw" name="Demande de validation " receiveEvent="_XX_wq_tsEe-We_vKzKR0Gw" sendEvent="_XX_wqvtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wwvtsEe-We_vKzKR0Gw" name="Demande refusée" messageSort="reply" receiveEvent="_XX_wsvtsEe-We_vKzKR0Gw" sendEvent="_XX_wsftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_ww_tsEe-We_vKzKR0Gw" name="Avis rejeté" messageSort="reply" receiveEvent="_XX_wtPtsEe-We_vKzKR0Gw" sendEvent="_XX_ws_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wxPtsEe-We_vKzKR0Gw" name="Demande acceptée" messageSort="reply" receiveEvent="_XX_wuftsEe-We_vKzKR0Gw" sendEvent="_XX_wuPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wxftsEe-We_vKzKR0Gw" name="affichage  de l'avis" messageSort="asynchCall" receiveEvent="_XX_wu_tsEe-We_vKzKR0Gw" sendEvent="_XX_wuvtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_wxvtsEe-We_vKzKR0Gw" name="Avis validé" messageSort="reply" receiveEvent="_XX_wvftsEe-We_vKzKR0Gw" sendEvent="_XX_wvPtsEe-We_vKzKR0Gw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_XX_wx_tsEe-We_vKzKR0Gw" name="Gerer Residence">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_XX_wyPtsEe-We_vKzKR0Gw" name="locals"/>
+    <lifeline xmi:id="_XX_wyftsEe-We_vKzKR0Gw" name="Gestionnaire" coveredBy="_XX_w1_tsEe-We_vKzKR0Gw _XX_w2PtsEe-We_vKzKR0Gw _XX_w3vtsEe-We_vKzKR0Gw _XX_w5PtsEe-We_vKzKR0Gw _XX_w5ftsEe-We_vKzKR0Gw _XX_w9PtsEe-We_vKzKR0Gw _XX_w-_tsEe-We_vKzKR0Gw _XX_xBvtsEe-We_vKzKR0Gw _XX_xDftsEe-We_vKzKR0Gw _XX_xF_tsEe-We_vKzKR0Gw _XX_xI_tsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wyvtsEe-We_vKzKR0Gw" name="Système" coveredBy="_XX_w3_tsEe-We_vKzKR0Gw _XX_w4PtsEe-We_vKzKR0Gw _XX_w4_tsEe-We_vKzKR0Gw _XX_w5vtsEe-We_vKzKR0Gw _XX_w6vtsEe-We_vKzKR0Gw _XX_w7PtsEe-We_vKzKR0Gw _XX_w8PtsEe-We_vKzKR0Gw _XX_w8_tsEe-We_vKzKR0Gw _XX_w_PtsEe-We_vKzKR0Gw _XX_w_ftsEe-We_vKzKR0Gw _XX_w__tsEe-We_vKzKR0Gw _XX_xBftsEe-We_vKzKR0Gw _XX_xDvtsEe-We_vKzKR0Gw _XX_xD_tsEe-We_vKzKR0Gw _XX_xE_tsEe-We_vKzKR0Gw _XX_xFvtsEe-We_vKzKR0Gw">
+      <ownedComment xmi:id="_XX_wy_tsEe-We_vKzKR0Gw">
+        <body>Lorsqu'on  crée une residence pour la premiere fois </body>
+      </ownedComment>
+    </lifeline>
+    <lifeline xmi:id="_XX_wzPtsEe-We_vKzKR0Gw" name="Residence" coveredBy="_XX_w8ftsEe-We_vKzKR0Gw _XX_xFPtsEe-We_vKzKR0Gw _XX_xFftsEe-We_vKzKR0Gw _XX_xGPtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wzftsEe-We_vKzKR0Gw" name="Contrainte" coveredBy="_XX_w6_tsEe-We_vKzKR0Gw _XX_xAPtsEe-We_vKzKR0Gw _XX_xAftsEe-We_vKzKR0Gw _XX_xBPtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wzvtsEe-We_vKzKR0Gw" name="Piece" coveredBy="_XX_w7ftsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_wz_tsEe-We_vKzKR0Gw" name="Gestionnaire" coveredBy="_XX_w1ftsEe-We_vKzKR0Gw _XX_w1vtsEe-We_vKzKR0Gw _XX_w2ftsEe-We_vKzKR0Gw _XX_w7_tsEe-We_vKzKR0Gw _XX_w9ftsEe-We_vKzKR0Gw _XX_xA_tsEe-We_vKzKR0Gw _XX_xB_tsEe-We_vKzKR0Gw _XX_xEvtsEe-We_vKzKR0Gw _XX_xGftsEe-We_vKzKR0Gw _XX_xIftsEe-We_vKzKR0Gw _XX_xIvtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_w0PtsEe-We_vKzKR0Gw" name="Système" coveredBy="_XX_w2vtsEe-We_vKzKR0Gw _XX_w2_tsEe-We_vKzKR0Gw _XX_w3PtsEe-We_vKzKR0Gw _XX_w4ftsEe-We_vKzKR0Gw _XX_w5_tsEe-We_vKzKR0Gw _XX_w7vtsEe-We_vKzKR0Gw _XX_w9vtsEe-We_vKzKR0Gw _XX_w9_tsEe-We_vKzKR0Gw _XX_w-PtsEe-We_vKzKR0Gw _XX_xAvtsEe-We_vKzKR0Gw _XX_xCPtsEe-We_vKzKR0Gw _XX_xCftsEe-We_vKzKR0Gw _XX_xCvtsEe-We_vKzKR0Gw _XX_xEftsEe-We_vKzKR0Gw _XX_xGvtsEe-We_vKzKR0Gw _XX_xG_tsEe-We_vKzKR0Gw _XX_xHPtsEe-We_vKzKR0Gw _XX_xHvtsEe-We_vKzKR0Gw _XX_xIPtsEe-We_vKzKR0Gw">
+      <ownedComment xmi:id="_XX_w0ftsEe-We_vKzKR0Gw">
+        <body>Lorsqu'on veut ajouter une piece a une residence deja existante 
+</body>
+      </ownedComment>
+    </lifeline>
+    <lifeline xmi:id="_XX_w0vtsEe-We_vKzKR0Gw" name="Contrainte" coveredBy="_XX_w3ftsEe-We_vKzKR0Gw _XX_xHftsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_w0_tsEe-We_vKzKR0Gw" name="Piece" coveredBy="_XX_w4vtsEe-We_vKzKR0Gw _XX_w-ftsEe-We_vKzKR0Gw _XX_w-vtsEe-We_vKzKR0Gw _XX_w_vtsEe-We_vKzKR0Gw _XX_xC_tsEe-We_vKzKR0Gw _XX_xDPtsEe-We_vKzKR0Gw _XX_xEPtsEe-We_vKzKR0Gw _XX_xH_tsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_w1PtsEe-We_vKzKR0Gw" name="Residence" coveredBy="_XX_w6PtsEe-We_vKzKR0Gw _XX_w6ftsEe-We_vKzKR0Gw _XX_w8vtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_w1ftsEe-We_vKzKR0Gw" covered="_XX_wz_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_w1vtsEe-We_vKzKR0Gw" covered="_XX_wz_tsEe-We_vKzKR0Gw" start="_XX_w1ftsEe-We_vKzKR0Gw" finish="_XX_xIvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_w1_tsEe-We_vKzKR0Gw" covered="_XX_wyftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_w2PtsEe-We_vKzKR0Gw" covered="_XX_wyftsEe-We_vKzKR0Gw" start="_XX_w1_tsEe-We_vKzKR0Gw" finish="_XX_xI_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w2ftsEe-We_vKzKR0Gw" covered="_XX_wz_tsEe-We_vKzKR0Gw" message="_XX_xJPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w2vtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xJPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_w2_tsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" start="_XX_w2vtsEe-We_vKzKR0Gw" finish="_XX_w7vtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w3PtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xJftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w3ftsEe-We_vKzKR0Gw" covered="_XX_w0vtsEe-We_vKzKR0Gw" message="_XX_xJftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w3vtsEe-We_vKzKR0Gw" covered="_XX_wyftsEe-We_vKzKR0Gw" message="_XX_xJvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w3_tsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xJvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_w4PtsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" start="_XX_w3_tsEe-We_vKzKR0Gw" finish="_XX_w8_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w4ftsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xJ_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w4vtsEe-We_vKzKR0Gw" covered="_XX_w0_tsEe-We_vKzKR0Gw" message="_XX_xJ_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w4_tsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xKPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w5PtsEe-We_vKzKR0Gw" covered="_XX_wyftsEe-We_vKzKR0Gw" message="_XX_xKPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w5ftsEe-We_vKzKR0Gw" covered="_XX_wyftsEe-We_vKzKR0Gw" message="_XX_xKftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w5vtsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xKftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w5_tsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xKvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w6PtsEe-We_vKzKR0Gw" covered="_XX_w1PtsEe-We_vKzKR0Gw" message="_XX_xKvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_w6ftsEe-We_vKzKR0Gw" covered="_XX_w1PtsEe-We_vKzKR0Gw" start="_XX_w6PtsEe-We_vKzKR0Gw" finish="_XX_w8vtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w6vtsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xK_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w6_tsEe-We_vKzKR0Gw" covered="_XX_wzftsEe-We_vKzKR0Gw" message="_XX_xK_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w7PtsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xLPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w7ftsEe-We_vKzKR0Gw" covered="_XX_wzvtsEe-We_vKzKR0Gw" message="_XX_xLPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w7vtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xLftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w7_tsEe-We_vKzKR0Gw" covered="_XX_wz_tsEe-We_vKzKR0Gw" message="_XX_xLftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w8PtsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xLvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w8ftsEe-We_vKzKR0Gw" covered="_XX_wzPtsEe-We_vKzKR0Gw" message="_XX_xLvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_w8vtsEe-We_vKzKR0Gw" covered="_XX_w1PtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w8_tsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xL_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w9PtsEe-We_vKzKR0Gw" covered="_XX_wyftsEe-We_vKzKR0Gw" message="_XX_xL_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w9ftsEe-We_vKzKR0Gw" covered="_XX_wz_tsEe-We_vKzKR0Gw" message="_XX_xMPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w9vtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xMPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_w9_tsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" start="_XX_w9vtsEe-We_vKzKR0Gw" finish="_XX_xAvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w-PtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xMftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w-ftsEe-We_vKzKR0Gw" covered="_XX_w0_tsEe-We_vKzKR0Gw" message="_XX_xMftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_w-vtsEe-We_vKzKR0Gw" covered="_XX_w0_tsEe-We_vKzKR0Gw" start="_XX_w-ftsEe-We_vKzKR0Gw" finish="_XX_w_vtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w-_tsEe-We_vKzKR0Gw" covered="_XX_wyftsEe-We_vKzKR0Gw" message="_XX_xMvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w_PtsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xMvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_w_ftsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" start="_XX_w_PtsEe-We_vKzKR0Gw" finish="_XX_xBftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_w_vtsEe-We_vKzKR0Gw" covered="_XX_w0_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_w__tsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xM_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xAPtsEe-We_vKzKR0Gw" covered="_XX_wzftsEe-We_vKzKR0Gw" message="_XX_xM_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_xAftsEe-We_vKzKR0Gw" covered="_XX_wzftsEe-We_vKzKR0Gw" start="_XX_xAPtsEe-We_vKzKR0Gw" finish="_XX_xBPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xAvtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xNPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xA_tsEe-We_vKzKR0Gw" covered="_XX_wz_tsEe-We_vKzKR0Gw" message="_XX_xNPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_xBPtsEe-We_vKzKR0Gw" covered="_XX_wzftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xBftsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xNftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xBvtsEe-We_vKzKR0Gw" covered="_XX_wyftsEe-We_vKzKR0Gw" message="_XX_xNftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xB_tsEe-We_vKzKR0Gw" covered="_XX_wz_tsEe-We_vKzKR0Gw" message="_XX_xNvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xCPtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xNvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_xCftsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" start="_XX_xCPtsEe-We_vKzKR0Gw" finish="_XX_xEftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xCvtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xN_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xC_tsEe-We_vKzKR0Gw" covered="_XX_w0_tsEe-We_vKzKR0Gw" message="_XX_xN_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_xDPtsEe-We_vKzKR0Gw" covered="_XX_w0_tsEe-We_vKzKR0Gw" start="_XX_xC_tsEe-We_vKzKR0Gw" finish="_XX_xEPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xDftsEe-We_vKzKR0Gw" covered="_XX_wyftsEe-We_vKzKR0Gw" message="_XX_xOPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xDvtsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xOPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_xD_tsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" start="_XX_xDvtsEe-We_vKzKR0Gw" finish="_XX_xFvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_xEPtsEe-We_vKzKR0Gw" covered="_XX_w0_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xEftsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xOftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xEvtsEe-We_vKzKR0Gw" covered="_XX_wz_tsEe-We_vKzKR0Gw" message="_XX_xOftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xE_tsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xOvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xFPtsEe-We_vKzKR0Gw" covered="_XX_wzPtsEe-We_vKzKR0Gw" message="_XX_xOvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_xFftsEe-We_vKzKR0Gw" covered="_XX_wzPtsEe-We_vKzKR0Gw" start="_XX_xFPtsEe-We_vKzKR0Gw" finish="_XX_xGPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xFvtsEe-We_vKzKR0Gw" covered="_XX_wyvtsEe-We_vKzKR0Gw" message="_XX_xO_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xF_tsEe-We_vKzKR0Gw" covered="_XX_wyftsEe-We_vKzKR0Gw" message="_XX_xO_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_xGPtsEe-We_vKzKR0Gw" covered="_XX_wzPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xGftsEe-We_vKzKR0Gw" covered="_XX_wz_tsEe-We_vKzKR0Gw" message="_XX_xPPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xGvtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xPPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_xG_tsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" start="_XX_xGvtsEe-We_vKzKR0Gw" finish="_XX_xIPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xHPtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xPftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xHftsEe-We_vKzKR0Gw" covered="_XX_w0vtsEe-We_vKzKR0Gw" message="_XX_xPftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xHvtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xPvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xH_tsEe-We_vKzKR0Gw" covered="_XX_w0_tsEe-We_vKzKR0Gw" message="_XX_xPvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xIPtsEe-We_vKzKR0Gw" covered="_XX_w0PtsEe-We_vKzKR0Gw" message="_XX_xP_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xIftsEe-We_vKzKR0Gw" covered="_XX_wz_tsEe-We_vKzKR0Gw" message="_XX_xP_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_xIvtsEe-We_vKzKR0Gw" covered="_XX_wz_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_xI_tsEe-We_vKzKR0Gw" covered="_XX_wyftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xJPtsEe-We_vKzKR0Gw" name="ajouterPiece()" receiveEvent="_XX_w2vtsEe-We_vKzKR0Gw" sendEvent="_XX_w2ftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xJftsEe-We_vKzKR0Gw" name="create" messageSort="createMessage" receiveEvent="_XX_w3ftsEe-We_vKzKR0Gw" sendEvent="_XX_w3PtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xJvtsEe-We_vKzKR0Gw" name="ajouterResidence()" receiveEvent="_XX_w3_tsEe-We_vKzKR0Gw" sendEvent="_XX_w3vtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xJ_tsEe-We_vKzKR0Gw" name="create" messageSort="createMessage" receiveEvent="_XX_w4vtsEe-We_vKzKR0Gw" sendEvent="_XX_w4ftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xKPtsEe-We_vKzKR0Gw" name="Formulaire de creation de residence" messageSort="reply" receiveEvent="_XX_w5PtsEe-We_vKzKR0Gw" sendEvent="_XX_w4_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xKftsEe-We_vKzKR0Gw" name="enregistrerResidence()" receiveEvent="_XX_w5vtsEe-We_vKzKR0Gw" sendEvent="_XX_w5ftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xKvtsEe-We_vKzKR0Gw" name="Ajout de piece" messageSort="asynchCall" receiveEvent="_XX_w6PtsEe-We_vKzKR0Gw" sendEvent="_XX_w5_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xK_tsEe-We_vKzKR0Gw" name="create" messageSort="createMessage" receiveEvent="_XX_w6_tsEe-We_vKzKR0Gw" sendEvent="_XX_w6vtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xLPtsEe-We_vKzKR0Gw" name="create" messageSort="createMessage" receiveEvent="_XX_w7ftsEe-We_vKzKR0Gw" sendEvent="_XX_w7PtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xLftsEe-We_vKzKR0Gw" name="Piece Ajoutee" messageSort="reply" receiveEvent="_XX_w7_tsEe-We_vKzKR0Gw" sendEvent="_XX_w7vtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xLvtsEe-We_vKzKR0Gw" name="create" messageSort="createMessage" receiveEvent="_XX_w8ftsEe-We_vKzKR0Gw" sendEvent="_XX_w8PtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xL_tsEe-We_vKzKR0Gw" name="Affichage des pieces" messageSort="reply" receiveEvent="_XX_w9PtsEe-We_vKzKR0Gw" sendEvent="_XX_w8_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xMPtsEe-We_vKzKR0Gw" name="modifierPiece()" receiveEvent="_XX_w9vtsEe-We_vKzKR0Gw" sendEvent="_XX_w9ftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xMftsEe-We_vKzKR0Gw" name="modifier" messageSort="asynchCall" receiveEvent="_XX_w-ftsEe-We_vKzKR0Gw" sendEvent="_XX_w-PtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xMvtsEe-We_vKzKR0Gw" name="(afficher, modifier,....) Contraintes" receiveEvent="_XX_w_PtsEe-We_vKzKR0Gw" sendEvent="_XX_w-_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xM_tsEe-We_vKzKR0Gw" name="CRUD Contraintes" messageSort="asynchCall" receiveEvent="_XX_xAPtsEe-We_vKzKR0Gw" sendEvent="_XX_w__tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xNPtsEe-We_vKzKR0Gw" name="Piece modifiee" messageSort="reply" receiveEvent="_XX_xA_tsEe-We_vKzKR0Gw" sendEvent="_XX_xAvtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xNftsEe-We_vKzKR0Gw" name="message de retour" messageSort="reply" receiveEvent="_XX_xBvtsEe-We_vKzKR0Gw" sendEvent="_XX_xBftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xNvtsEe-We_vKzKR0Gw" name="consulterPieces()" receiveEvent="_XX_xCPtsEe-We_vKzKR0Gw" sendEvent="_XX_xB_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xN_tsEe-We_vKzKR0Gw" name="lire" messageSort="asynchCall" receiveEvent="_XX_xC_tsEe-We_vKzKR0Gw" sendEvent="_XX_xCvtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xOPtsEe-We_vKzKR0Gw" name="(afficher, modifier,....) Residences" receiveEvent="_XX_xDvtsEe-We_vKzKR0Gw" sendEvent="_XX_xDftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xOftsEe-We_vKzKR0Gw" name="affichagePieces()" messageSort="reply" receiveEvent="_XX_xEvtsEe-We_vKzKR0Gw" sendEvent="_XX_xEftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xOvtsEe-We_vKzKR0Gw" name="CRUD Residence" messageSort="asynchCall" receiveEvent="_XX_xFPtsEe-We_vKzKR0Gw" sendEvent="_XX_xE_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xO_tsEe-We_vKzKR0Gw" name="message de retour" messageSort="reply" receiveEvent="_XX_xF_tsEe-We_vKzKR0Gw" sendEvent="_XX_xFvtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xPPtsEe-We_vKzKR0Gw" name="supprimerPiece()" receiveEvent="_XX_xGvtsEe-We_vKzKR0Gw" sendEvent="_XX_xGftsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xPftsEe-We_vKzKR0Gw" name="destroy" messageSort="deleteMessage" receiveEvent="_XX_xHftsEe-We_vKzKR0Gw" sendEvent="_XX_xHPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xPvtsEe-We_vKzKR0Gw" name="destroy" messageSort="deleteMessage" receiveEvent="_XX_xH_tsEe-We_vKzKR0Gw" sendEvent="_XX_xHvtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xP_tsEe-We_vKzKR0Gw" name="piece supprimée" messageSort="reply" receiveEvent="_XX_xIftsEe-We_vKzKR0Gw" sendEvent="_XX_xIPtsEe-We_vKzKR0Gw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_XX_xQPtsEe-We_vKzKR0Gw" name="connexion">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_XX_xQftsEe-We_vKzKR0Gw" name="locals"/>
+    <lifeline xmi:id="_XX_xQvtsEe-We_vKzKR0Gw" name="utilisateur" coveredBy="_XX_xRftsEe-We_vKzKR0Gw _XX_xRvtsEe-We_vKzKR0Gw _XX_xR_tsEe-We_vKzKR0Gw _XX_xSvtsEe-We_vKzKR0Gw _XX_xUvtsEe-We_vKzKR0Gw _XX_xVvtsEe-We_vKzKR0Gw _XX_xV_tsEe-We_vKzKR0Gw _XX_xWftsEe-We_vKzKR0Gw _XX_xWvtsEe-We_vKzKR0Gw _XX_xX_tsEe-We_vKzKR0Gw _XX_xYPtsEe-We_vKzKR0Gw _XX_xYvtsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_xQ_tsEe-We_vKzKR0Gw" name="Sys Auth" coveredBy="_XX_xSPtsEe-We_vKzKR0Gw _XX_xSftsEe-We_vKzKR0Gw _XX_xS_tsEe-We_vKzKR0Gw _XX_xT_tsEe-We_vKzKR0Gw _XX_xUPtsEe-We_vKzKR0Gw _XX_xUftsEe-We_vKzKR0Gw _XX_xUvtsEe-We_vKzKR0Gw _XX_xWPtsEe-We_vKzKR0Gw _XX_xXvtsEe-We_vKzKR0Gw _XX_xYftsEe-We_vKzKR0Gw"/>
+    <lifeline xmi:id="_XX_xRPtsEe-We_vKzKR0Gw" name="bd" coveredBy="_XX_xTPtsEe-We_vKzKR0Gw _XX_xTftsEe-We_vKzKR0Gw _XX_xTvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_xRftsEe-We_vKzKR0Gw" covered="_XX_xQvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_xRvtsEe-We_vKzKR0Gw" covered="_XX_xQvtsEe-We_vKzKR0Gw" start="_XX_xRftsEe-We_vKzKR0Gw" finish="_XX_xSvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xR_tsEe-We_vKzKR0Gw" covered="_XX_xQvtsEe-We_vKzKR0Gw" message="_XX_xY_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xSPtsEe-We_vKzKR0Gw" covered="_XX_xQ_tsEe-We_vKzKR0Gw" message="_XX_xY_tsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_xSftsEe-We_vKzKR0Gw" covered="_XX_xQ_tsEe-We_vKzKR0Gw" start="_XX_xSPtsEe-We_vKzKR0Gw" finish="_XX_xYftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_xSvtsEe-We_vKzKR0Gw" covered="_XX_xQvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xS_tsEe-We_vKzKR0Gw" covered="_XX_xQ_tsEe-We_vKzKR0Gw" message="_XX_xZPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xTPtsEe-We_vKzKR0Gw" covered="_XX_xRPtsEe-We_vKzKR0Gw" message="_XX_xZPtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_xTftsEe-We_vKzKR0Gw" covered="_XX_xRPtsEe-We_vKzKR0Gw" start="_XX_xTPtsEe-We_vKzKR0Gw" finish="_XX_xTvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xTvtsEe-We_vKzKR0Gw" covered="_XX_xRPtsEe-We_vKzKR0Gw" message="_XX_xZftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xT_tsEe-We_vKzKR0Gw" covered="_XX_xQ_tsEe-We_vKzKR0Gw" message="_XX_xZftsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xUPtsEe-We_vKzKR0Gw" covered="_XX_xQ_tsEe-We_vKzKR0Gw" message="_XX_xZvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xUftsEe-We_vKzKR0Gw" covered="_XX_xQ_tsEe-We_vKzKR0Gw" message="_XX_xZvtsEe-We_vKzKR0Gw"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_XX_xUvtsEe-We_vKzKR0Gw" name="CombinedFragment" covered="_XX_xQ_tsEe-We_vKzKR0Gw _XX_xQvtsEe-We_vKzKR0Gw" interactionOperator="alt">
+      <operand xmi:id="_XX_xU_tsEe-We_vKzKR0Gw" name="InteractionOperand">
+        <guard xmi:id="_XX_xVPtsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_xVftsEe-We_vKzKR0Gw" value="si données valides"/>
+        </guard>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_xVvtsEe-We_vKzKR0Gw" covered="_XX_xQvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_xV_tsEe-We_vKzKR0Gw" covered="_XX_xQvtsEe-We_vKzKR0Gw" start="_XX_xVvtsEe-We_vKzKR0Gw" finish="_XX_xWvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xWPtsEe-We_vKzKR0Gw" covered="_XX_xQ_tsEe-We_vKzKR0Gw" message="_XX_xZ_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xWftsEe-We_vKzKR0Gw" covered="_XX_xQvtsEe-We_vKzKR0Gw" message="_XX_xZ_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_xWvtsEe-We_vKzKR0Gw" covered="_XX_xQvtsEe-We_vKzKR0Gw"/>
+      </operand>
+      <operand xmi:id="_XX_xW_tsEe-We_vKzKR0Gw">
+        <guard xmi:id="_XX_xXPtsEe-We_vKzKR0Gw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_XX_xXftsEe-We_vKzKR0Gw" value="si données invalides"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xXvtsEe-We_vKzKR0Gw" covered="_XX_xQ_tsEe-We_vKzKR0Gw" message="_XX_xaPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XX_xX_tsEe-We_vKzKR0Gw" covered="_XX_xQvtsEe-We_vKzKR0Gw" message="_XX_xaPtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XX_xYPtsEe-We_vKzKR0Gw" covered="_XX_xQvtsEe-We_vKzKR0Gw" start="_XX_xX_tsEe-We_vKzKR0Gw" finish="_XX_xYvtsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_xYftsEe-We_vKzKR0Gw" covered="_XX_xQ_tsEe-We_vKzKR0Gw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XX_xYvtsEe-We_vKzKR0Gw" covered="_XX_xQvtsEe-We_vKzKR0Gw"/>
+      </operand>
+    </fragment>
+    <message xmi:id="_XX_xY_tsEe-We_vKzKR0Gw" name="se connecter(login, password)" receiveEvent="_XX_xSPtsEe-We_vKzKR0Gw" sendEvent="_XX_xR_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xZPtsEe-We_vKzKR0Gw" name="requete pour recuperer les données" receiveEvent="_XX_xTPtsEe-We_vKzKR0Gw" sendEvent="_XX_xS_tsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xZftsEe-We_vKzKR0Gw" name="renvoie les infos demandées" messageSort="reply" receiveEvent="_XX_xT_tsEe-We_vKzKR0Gw" sendEvent="_XX_xTvtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xZvtsEe-We_vKzKR0Gw" receiveEvent="_XX_xUftsEe-We_vKzKR0Gw" sendEvent="_XX_xUPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xZ_tsEe-We_vKzKR0Gw" name="autentification reussie" receiveEvent="_XX_xWftsEe-We_vKzKR0Gw" sendEvent="_XX_xWPtsEe-We_vKzKR0Gw"/>
+    <message xmi:id="_XX_xaPtsEe-We_vKzKR0Gw" name="page de connexion" receiveEvent="_XX_xX_tsEe-We_vKzKR0Gw" sendEvent="_XX_xXvtsEe-We_vKzKR0Gw"/>
+  </packagedElement>
+</uml:Model>

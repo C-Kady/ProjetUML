@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Xdc7gPtAEe-wFvvraPuiJw" name="Etat Transition">
+  <eAnnotations xmi:id="_Xdc7gftAEe-wFvvraPuiJw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Xdc7gvtAEe-wFvvraPuiJw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Xdc7g_tAEe-wFvvraPuiJw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_Xdc7hPtAEe-wFvvraPuiJw" name="Reservation">
+    <region xmi:id="_Xdc7hftAEe-wFvvraPuiJw">
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7hvtAEe-wFvvraPuiJw" name="Disponible"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7h_tAEe-wFvvraPuiJw" name="reservation en cours"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7iPtAEe-wFvvraPuiJw" name="reservation confirmée"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7iftAEe-wFvvraPuiJw" name="paiement en attente"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7ivtAEe-wFvvraPuiJw" name="paiement effectuée"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7i_tAEe-wFvvraPuiJw" name="sejour en cours"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7jPtAEe-wFvvraPuiJw" name="annulé"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7jftAEe-wFvvraPuiJw" name="sejour terminé"/>
+      <transition xmi:id="_Xdc7jvtAEe-wFvvraPuiJw" name="Transition" source="_Xdc7hvtAEe-wFvvraPuiJw" target="_Xdc7h_tAEe-wFvvraPuiJw" guard="_Xdc7j_tAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7j_tAEe-wFvvraPuiJw" name="le client selectionne une residence parmi celles disponible" constrainedElement="_Xdc7jvtAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7kPtAEe-wFvvraPuiJw" value="le client selectionne une residence parmi celles disponible"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7kftAEe-wFvvraPuiJw" name="Transition" source="_Xdc7h_tAEe-wFvvraPuiJw" target="_Xdc7iPtAEe-wFvvraPuiJw" guard="_Xdc7kvtAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7kvtAEe-wFvvraPuiJw" name="validation par le gestionnaire" constrainedElement="_Xdc7kftAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7k_tAEe-wFvvraPuiJw" value="validation par le gestionnaire"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7lPtAEe-wFvvraPuiJw" name="Transition1" source="_Xdc7h_tAEe-wFvvraPuiJw" target="_Xdc7jPtAEe-wFvvraPuiJw" guard="_Xdc7lftAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7lftAEe-wFvvraPuiJw" name="annulation par le client ou le gestionnaire" constrainedElement="_Xdc7lPtAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7lvtAEe-wFvvraPuiJw" value="annulation par le client ou le gestionnaire"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7l_tAEe-wFvvraPuiJw" name="Transition1" source="_Xdc7iPtAEe-wFvvraPuiJw" target="_Xdc7iftAEe-wFvvraPuiJw" guard="_Xdc7mPtAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7mPtAEe-wFvvraPuiJw" name="Paiement requis" constrainedElement="_Xdc7l_tAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7mftAEe-wFvvraPuiJw" value="Paiement requis"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7mvtAEe-wFvvraPuiJw" name="Transition" source="_Xdc7iPtAEe-wFvvraPuiJw" target="_Xdc7jPtAEe-wFvvraPuiJw" guard="_Xdc7m_tAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7m_tAEe-wFvvraPuiJw" name="annulation avant paiement" constrainedElement="_Xdc7mvtAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7nPtAEe-wFvvraPuiJw" value="annulation avant paiement"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7nftAEe-wFvvraPuiJw" name="Transition" source="_Xdc7iftAEe-wFvvraPuiJw" target="_Xdc7ivtAEe-wFvvraPuiJw" guard="_Xdc7nvtAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7nvtAEe-wFvvraPuiJw" name="paiement effectuée" constrainedElement="_Xdc7nftAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7n_tAEe-wFvvraPuiJw" value="paiement effectuée"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7oPtAEe-wFvvraPuiJw" name="Transition1" source="_Xdc7iftAEe-wFvvraPuiJw" target="_Xdc7jPtAEe-wFvvraPuiJw"/>
+      <transition xmi:id="_Xdc7oftAEe-wFvvraPuiJw" name="Transition" source="_Xdc7ivtAEe-wFvvraPuiJw" target="_Xdc7i_tAEe-wFvvraPuiJw" guard="_Xdc7ovtAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7ovtAEe-wFvvraPuiJw" name="debut de la location" constrainedElement="_Xdc7oftAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7o_tAEe-wFvvraPuiJw" value="debut de la location"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7pPtAEe-wFvvraPuiJw" name="Transition" source="_Xdc7i_tAEe-wFvvraPuiJw" target="_Xdc7jftAEe-wFvvraPuiJw" guard="_Xdc7pftAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7pftAEe-wFvvraPuiJw" name="fin de la location" constrainedElement="_Xdc7pPtAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7pvtAEe-wFvvraPuiJw" value="fin de la location"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7p_tAEe-wFvvraPuiJw" name="Transition1" source="_Xdc7i_tAEe-wFvvraPuiJw" target="_Xdc7jPtAEe-wFvvraPuiJw" guard="_Xdc7qPtAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7qPtAEe-wFvvraPuiJw" name="annulation exceptionnelle" constrainedElement="_Xdc7p_tAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7qftAEe-wFvvraPuiJw" value="annulation exceptionnelle"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7qvtAEe-wFvvraPuiJw" name="Transition" source="_Xdc7jPtAEe-wFvvraPuiJw" target="_Xdc7rvtAEe-wFvvraPuiJw"/>
+      <transition xmi:id="_Xdc7q_tAEe-wFvvraPuiJw" name="Transition" source="_Xdc7jftAEe-wFvvraPuiJw" target="_Xdc7rvtAEe-wFvvraPuiJw"/>
+      <transition xmi:id="_Xdc7rPtAEe-wFvvraPuiJw" name="Transition" source="_Xdc7rftAEe-wFvvraPuiJw" target="_Xdc7hvtAEe-wFvvraPuiJw"/>
+    </region>
+    <connectionPoint xmi:id="_Xdc7rftAEe-wFvvraPuiJw" name="le client fait une demande de reservation" kind="entryPoint"/>
+    <connectionPoint xmi:id="_Xdc7rvtAEe-wFvvraPuiJw" name="fin" kind="exitPoint"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_Xdc7r_tAEe-wFvvraPuiJw" name="paiement">
+    <region xmi:id="_Xdc7sPtAEe-wFvvraPuiJw">
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7sftAEe-wFvvraPuiJw" name="Paiement en attente"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7svtAEe-wFvvraPuiJw" name="Paiement validé"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7s_tAEe-wFvvraPuiJw" name="Paiement echoué"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7tPtAEe-wFvvraPuiJw" name="Remboursement"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7tftAEe-wFvvraPuiJw" name="Paiement annulé"/>
+      <transition xmi:id="_Xdc7tvtAEe-wFvvraPuiJw" name="Transition" source="_Xdc7sftAEe-wFvvraPuiJw" target="_Xdc7svtAEe-wFvvraPuiJw" guard="_Xdc7t_tAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7t_tAEe-wFvvraPuiJw" name="effectué avec succes" constrainedElement="_Xdc7tvtAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7uPtAEe-wFvvraPuiJw" value="effectué avec succes"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7uftAEe-wFvvraPuiJw" name="Transition1" source="_Xdc7sftAEe-wFvvraPuiJw" target="_Xdc7s_tAEe-wFvvraPuiJw" guard="_Xdc7uvtAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7uvtAEe-wFvvraPuiJw" name="echec du paiement" constrainedElement="_Xdc7uftAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7u_tAEe-wFvvraPuiJw" value="echec du paiement"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7vPtAEe-wFvvraPuiJw" name="Transition2" source="_Xdc7sftAEe-wFvvraPuiJw" target="_Xdc7tftAEe-wFvvraPuiJw" guard="_Xdc7vftAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7vftAEe-wFvvraPuiJw" name="annulation avant paiement" constrainedElement="_Xdc7vPtAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7vvtAEe-wFvvraPuiJw" value="annulation avant paiement"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7v_tAEe-wFvvraPuiJw" name="Transition1" source="_Xdc7svtAEe-wFvvraPuiJw" target="_Xdc7yftAEe-wFvvraPuiJw"/>
+      <transition xmi:id="_Xdc7wPtAEe-wFvvraPuiJw" name="Transition" source="_Xdc7svtAEe-wFvvraPuiJw" target="_Xdc7tPtAEe-wFvvraPuiJw" guard="_Xdc7wftAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7wftAEe-wFvvraPuiJw" name="annulation après paiement" constrainedElement="_Xdc7wPtAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7wvtAEe-wFvvraPuiJw" value="annulation après paiement"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7w_tAEe-wFvvraPuiJw" name="Transition" source="_Xdc7s_tAEe-wFvvraPuiJw" target="_Xdc7sftAEe-wFvvraPuiJw" guard="_Xdc7xPtAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc7xPtAEe-wFvvraPuiJw" name="nouvelle tentative" constrainedElement="_Xdc7w_tAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc7xftAEe-wFvvraPuiJw" value="nouvelle tentative"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc7xvtAEe-wFvvraPuiJw" name="Transition" source="_Xdc7tftAEe-wFvvraPuiJw" target="_Xdc7yftAEe-wFvvraPuiJw"/>
+      <transition xmi:id="_Xdc7x_tAEe-wFvvraPuiJw" name="Transition" source="_Xdc7yPtAEe-wFvvraPuiJw" target="_Xdc7sftAEe-wFvvraPuiJw"/>
+    </region>
+    <connectionPoint xmi:id="_Xdc7yPtAEe-wFvvraPuiJw" name="Paiement initié" kind="entryPoint"/>
+    <connectionPoint xmi:id="_Xdc7yftAEe-wFvvraPuiJw" name="Fin du paiement" kind="exitPoint"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_Xdc7yvtAEe-wFvvraPuiJw" name="Gestion des disponibilités">
+    <region xmi:id="_Xdc7y_tAEe-wFvvraPuiJw">
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7zPtAEe-wFvvraPuiJw" name="disponible">
+        <ownedComment xmi:id="_Xdc7zftAEe-wFvvraPuiJw">
+          <body>&lt;Saisir le texte de la note ici></body>
+        </ownedComment>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7zvtAEe-wFvvraPuiJw" name="reservé"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc7z_tAEe-wFvvraPuiJw" name="en maintenance"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xdc70PtAEe-wFvvraPuiJw" name="indisponible"/>
+      <transition xmi:id="_Xdc70ftAEe-wFvvraPuiJw" name="Transition" source="_Xdc7zPtAEe-wFvvraPuiJw" target="_Xdc7zvtAEe-wFvvraPuiJw" guard="_Xdc70vtAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc70vtAEe-wFvvraPuiJw" name="nouvelle reservation" constrainedElement="_Xdc70ftAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc70_tAEe-wFvvraPuiJw" value="nouvelle reservation"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc71PtAEe-wFvvraPuiJw" name="Transition1" source="_Xdc7zPtAEe-wFvvraPuiJw" target="_Xdc7z_tAEe-wFvvraPuiJw" guard="_Xdc71ftAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc71ftAEe-wFvvraPuiJw" name="maintenace planifiée" constrainedElement="_Xdc71PtAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc71vtAEe-wFvvraPuiJw" value="maintenace planifiée"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc71_tAEe-wFvvraPuiJw" name="Transition" source="_Xdc7zvtAEe-wFvvraPuiJw" target="_Xdc7zPtAEe-wFvvraPuiJw" guard="_Xdc72PtAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc72PtAEe-wFvvraPuiJw" name="fin de reservation" constrainedElement="_Xdc71_tAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc72ftAEe-wFvvraPuiJw" value="fin de reservation"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc72vtAEe-wFvvraPuiJw" name="Transition2" source="_Xdc7zvtAEe-wFvvraPuiJw" target="_Xdc70PtAEe-wFvvraPuiJw" guard="_Xdc72_tAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc72_tAEe-wFvvraPuiJw" name="annulation tardive" constrainedElement="_Xdc72vtAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc73PtAEe-wFvvraPuiJw" value="annulation tardive"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc73ftAEe-wFvvraPuiJw" name="Transition1" source="_Xdc7zvtAEe-wFvvraPuiJw" target="_Xdc76PtAEe-wFvvraPuiJw"/>
+      <transition xmi:id="_Xdc73vtAEe-wFvvraPuiJw" name="Transition" source="_Xdc7z_tAEe-wFvvraPuiJw" target="_Xdc7zPtAEe-wFvvraPuiJw" guard="_Xdc73_tAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc73_tAEe-wFvvraPuiJw" name="fin de maintenance" constrainedElement="_Xdc73vtAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc74PtAEe-wFvvraPuiJw" value="fin de maintenance"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc74ftAEe-wFvvraPuiJw" name="Transition1" source="_Xdc7z_tAEe-wFvvraPuiJw" target="_Xdc76PtAEe-wFvvraPuiJw"/>
+      <transition xmi:id="_Xdc74vtAEe-wFvvraPuiJw" name="Transition" source="_Xdc70PtAEe-wFvvraPuiJw" target="_Xdc7zPtAEe-wFvvraPuiJw" guard="_Xdc74_tAEe-wFvvraPuiJw">
+        <ownedRule xmi:id="_Xdc74_tAEe-wFvvraPuiJw" name="disponibilité activée" constrainedElement="_Xdc74vtAEe-wFvvraPuiJw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Xdc75PtAEe-wFvvraPuiJw" value="disponibilité activée"/>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Xdc75ftAEe-wFvvraPuiJw" name="Transition1" source="_Xdc70PtAEe-wFvvraPuiJw" target="_Xdc76PtAEe-wFvvraPuiJw"/>
+      <transition xmi:id="_Xdc75vtAEe-wFvvraPuiJw" name="Transition" source="_Xdc75_tAEe-wFvvraPuiJw" target="_Xdc7zPtAEe-wFvvraPuiJw"/>
+    </region>
+    <connectionPoint xmi:id="_Xdc75_tAEe-wFvvraPuiJw" name="gestion des disponibilites par le gestionnaire" kind="entryPoint"/>
+    <connectionPoint xmi:id="_Xdc76PtAEe-wFvvraPuiJw" name="Fin " kind="exitPoint"/>
+  </packagedElement>
+</uml:Model>
