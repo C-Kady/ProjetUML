@@ -1,5 +1,5 @@
 README - Diagramme de séquence du Système : Annulation de réservation
-///// Dans le dossier Séquence tous les objets ont été nommées de facon générale, nous n'arivions pas a les nommés de cette facon : ****client004 : Client**** voila pourquoi on les a nommés juste comme ca : ****Client :****
+///// Dans le dossier Séquence tous les objets ont été nommées de facon générale, nous n'arivions pas a les nommés de cette facon : ****client004 : Client**** voila pourquoi on les a nommés juste comme ca:  ****Client :****
 - le client fait une demande d'annulation de réservation
 - le système automatiquement exécute la demande et détruit l'objet de réservation créée
 - il initie une demande remboursement si la demande est fait dans les délais sinon le remboursement n'est pas effectuée
